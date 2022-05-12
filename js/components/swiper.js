@@ -1,17 +1,17 @@
-$(window).load(function(){
+$(window).load(function () {
   /* One Item */
   var swiper = new Swiper('.js__swiper-one-item', {
     nextButton: '.js__swiper-btn--next',
     prevButton: '.js__swiper-btn--prev',
     speed: 1000,
     autoplay: 7000,
-    loop: true
+    loop: false
   });
 
   /* Slider */
   var swiper = new Swiper('.js__swiper-slider', {
     pagination: '.js__swiper-pagination',
-    paginationClickable: true,
+    paginationClickable: false,
     speed: 1000,
     autoplay: 7000,
     loop: true
