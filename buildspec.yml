@@ -9,4 +9,6 @@ phases:
     commands:
   post_build:
     commands:
-      - aws s3 sync ./$S3_BUCKET 
+artifacts:
+  files:
+    - "**/*"
